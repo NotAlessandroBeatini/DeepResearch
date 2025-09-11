@@ -19,7 +19,6 @@ from dotenv import load_dotenv
 from typing import TypedDict, List, Optional, Annotated, Dict
 from langchain_core.messages import BaseMessage,HumanMessage, AIMessage
 from langgraph.graph import START, END, StateGraph, add_messages
-from pydantic import BaseModel, Field
 from uuid import uuid4
 from datetime import datetime
 from langgraph.types import Command
